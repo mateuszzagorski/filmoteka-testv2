@@ -1,0 +1,44 @@
+@import '../utils/vars';
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-size: 100vw 216px;
+    height: 216px;
+    margin-bottom: 60px;
+    background-image: url('../images/header-background-tablet.jpg');
+
+    &--library {
+      background-image: url('../images/my-library-tablet.jpg');
+    }
+
+    .header__nav {
+      &-title {
+        color: getcolor('header');
+        display: inline;
+        font-size: 30px;
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+          color: getcolor('orange');
+        }
+      }
+
+      &-container {
+        width: 704px;
+
+        > a {
+          text-decoration: none;
+        }
+      }
+    }
+    &__nav {
+      &-input {
+        width: 336px;
+      }
+    }
+
+    &__error {
+      width: 393px;
+    }
+  }
+}
