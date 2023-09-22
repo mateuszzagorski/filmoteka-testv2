@@ -5,7 +5,7 @@
   "homepage": "https://mateuszzagorski.github.io/filmoteka-testv2",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka-testv2/"
+    "build": "parcel build src/*.html --public-url filmoteka-testv2"
   },
   "repository": {
     "type": "git",
